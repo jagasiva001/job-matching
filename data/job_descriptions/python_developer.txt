@@ -1,0 +1,8 @@
+Python Developer
+
+Required skills:
+Python
+Flask
+FastAPI
+Docker
+Linux

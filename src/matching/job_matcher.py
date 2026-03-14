@@ -19,7 +19,8 @@ def match_jobs(resume_text, job_folder):
 
         score = calculate_similarity(resume_embedding, job_embedding)
 
-        results.append((job_file, score))
+        # FIX HERE
+        results.append((job_file, float(score)))
 
     results.sort(key=lambda x: x[1], reverse=True)
 

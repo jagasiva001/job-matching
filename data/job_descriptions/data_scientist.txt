@@ -1,0 +1,8 @@
+Data Scientist
+
+Required skills:
+Python
+Pandas
+Machine Learning
+Statistics
+SQL

@@ -5,12 +5,9 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-
     return {"message": "Job Matching API Running"}
 
-
 @app.post("/match")
-
 def match(resume_text: str):
 
     results = match_jobs(resume_text, "data/job_descriptions")
